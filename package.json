@@ -1,0 +1,46 @@
+{
+  "name": "movie-task",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "json-server": "json-server -p 3006 -w db.json",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.16",
+    "@mui/styles": "^5.10.16",
+    "@reduxjs/toolkit": "^1.9.0",
+    "@testing-library/react": "^13.4.0",
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^29.2.4",
+    "@types/react-redux": "^7.1.24",
+    "axios": "^1.2.0",
+    "eslint": "^8.29.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.3",
+    "sass": "^1.56.1"
+  },
+  "devDependencies": {
+    "@types/json-server": "^0.14.4",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "json-server": "^0.17.1",
+    "prettier": "^2.8.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3",
+    "vitest": "^0.25.3"
+  }
+}

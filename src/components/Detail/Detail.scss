@@ -1,0 +1,10 @@
+.movie-rating {
+    span {
+        display: flex;
+        align-items: flex-end;
+        margin-left: 8px;
+        svg {
+            margin-left: 3px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.movieBtn {
+  height: 34px;
+  width: 160px;
+  &:first-child {
+    margin-right: 30px;
+  }
+}
+
+.searchBox {
+  height: 100vh;
+}
+
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+  justify-content: center;
+}
+
+.makeStyles-pageContent-2 {
+  width: 100% !important;
+  margin: unset !important;
+  padding: 48px;
+  min-height: 40vh;
+}
+
+
